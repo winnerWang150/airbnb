@@ -10,7 +10,7 @@ import useScrollTop from './hooks/useScrollTop'
 
 const App = memo(() => {
   useScrollTop()
-
+  console.log('jenkins部署成功')
   return (
     <div className='app'>
       <Header/>
